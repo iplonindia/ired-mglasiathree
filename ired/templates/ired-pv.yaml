@@ -11,4 +11,4 @@ spec:
     - {{ .Values.nodeflow_storage.accessModes }}
   nfs:
     server: {{ .Values.nodeflow_storage.nfsserver }}
-    path: {{ .Values.nodeflow_storage.mountpath}}{{ .Values.appname }}
+    path: {{ .Values.nodeflow_storage.mountpath }}
